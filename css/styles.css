@@ -40,7 +40,6 @@ body {
 /* first section */
 .logo {
   color: var(--logo-header-color);
-
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -56,7 +55,6 @@ body {
 /* navigation */
 .site-nav .link {
   color: var(--text-color);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -76,7 +74,6 @@ body {
 /* communication */
 .communication .link {
   color: var(--p-tel-mail-color);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -96,7 +93,6 @@ body {
 
 .hero-title {
   color: var(--primary-white-color);
-
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -123,9 +119,15 @@ body {
 
 .benefits-title .text {
   color: var(--p-tel-mail-color);
-
   font-size: 14px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+.text {
+  color: var(--p-tel-mail-color);
+  font-size: var(--main-font-size);
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
@@ -141,14 +143,15 @@ body {
   font-weight: 500;
   font-size: var(--main-font-size);
   line-height: 1.19;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 
-.text {
+.team-text {
   color: var(--p-tel-mail-color);
-
   font-size: var(--main-font-size);
   line-height: 1.19;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -156,7 +159,6 @@ body {
 .btn {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
-
   font-family: inherit;
   font-weight: 700;
   font-size: var(--main-font-size);
@@ -171,13 +173,13 @@ body {
 .btn:focus {
   background-color: #188ce8;
   color: var(--primary-white-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* second section for second page */
 .filter .btn {
   background-color: var(--bcg-color-button);
   color: var(--text-color);
-
   font-weight: 500;
   font-size: var(--main-font-size);
   line-height: 1.63;
@@ -201,14 +203,16 @@ body {
 
 .works .link {
   color: var(--text-color);
-
   text-decoration: none;
+}
+
+.work-list {
+  border: 1px solid #eeeeee;
 }
 
 /* last one */
 .last-page {
   background-color: var(--hero-footer-color);
-
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -216,7 +220,6 @@ body {
 
 .logo-footer {
   color: var(--primary-white-color);
-
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -230,7 +233,6 @@ body {
 
 .address .link {
   color: var(--address-color);
-
   text-decoration: none;
 }
 
@@ -241,7 +243,6 @@ body {
 
 .footer-address .link {
   color: var(--primary-white-color);
-
   text-decoration: none;
 }
 
