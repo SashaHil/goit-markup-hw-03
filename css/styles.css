@@ -31,6 +31,10 @@ body {
 .container {
   width: 1230px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  outline: 2px solid tomato;
 }
 
 .list {
@@ -111,20 +115,26 @@ p {
 }
 
 /* second section */
-.hero {
+.section {
+  padding: 94px 0;
+}
+
+.section-hero {
+  padding: 200px 0;
+
   background-color: var(--hero-footer-color);
   text-align: center;
 }
 
 .hero-title {
+  margin-bottom: 30px;
+
   color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-
-  margin-bottom: 30px;
 }
 
 .benefits-title .title {
@@ -133,7 +143,9 @@ p {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
 
+.title {
   margin-bottom: 10px;
 }
 
@@ -151,38 +163,35 @@ p {
   letter-spacing: 0.03em;
 }
 
-.section {
-  padding: 94px 0;
-}
-
 .section-title {
+  margin-bottom: 50px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-
-  margin-bottom: 50px;
 }
 
 .team-section {
+  padding: 94px 0;
+
   background-color: var(--bcg-color-button);
 }
 
 .team-icon {
   display: inline-block;
+  padding-bottom: 30px;
+
   background-color: var(--primary-white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-/* напевне виправляти бо є топ */
-.title {
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
 
 .team .title {
+  margin-top: 30px;
+
   font-weight: 500;
   font-size: var(--main-font-size);
   line-height: 1.19;
@@ -196,12 +205,12 @@ p {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-
-  padding-bottom: 30px;
 }
 
 /* click */
 .btn {
+  padding: 10px 32px;
+
   background-color: var(--accent-color);
   color: var(--primary-white-color);
   font-family: inherit;
@@ -211,7 +220,6 @@ p {
   text-align: center;
   letter-spacing: 0.06em;
 
-  padding: 10px 32px;
   border-radius: 4px;
 
   cursor: pointer;
@@ -225,9 +233,6 @@ p {
 }
 
 /* second section for second page */
-.filter {
-  margin-bottom: 50px;
-}
 
 .filter .btn {
   background-color: var(--bcg-color-button);
@@ -266,6 +271,8 @@ p {
 
 /* last one */
 .last-page {
+  padding: 60px 0;
+
   background-color: var(--hero-footer-color);
   font-size: 14px;
   line-height: 1.71;
@@ -273,6 +280,9 @@ p {
 }
 
 .logo-footer {
+  display: inline-block;
+  margin-bottom: 20px;
+
   color: var(--primary-white-color);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -280,13 +290,11 @@ p {
   line-height: 1.19;
   text-decoration: none;
 }
-/* напевне виправляти бо є топ */
-.address {
-  font-style: normal;
 
-  margin-top: 20px;
+.address {
   margin-bottom: 9px;
-  padding-bottom: 60px;
+
+  font-style: normal;
 }
 
 .address .link {
