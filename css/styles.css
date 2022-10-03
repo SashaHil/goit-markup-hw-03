@@ -157,7 +157,7 @@ p {
 
 /* second section */
 .section-hero {
-  padding: 200px 452px;
+  padding: 200px;
 
   background-color: var(--hero-footer-color);
   text-align: center;
