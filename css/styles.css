@@ -355,7 +355,6 @@ img {
 .btn.rest {
   display: inline-block;
   padding: 6px 22px;
-  min-width: 23px;
 }
 
 .works {
@@ -367,10 +366,6 @@ img {
 .work-list {
   flex-basis: calc((100% - 60px) / 3);
 }
-
-/* .work-list:nth-child(3n) {
-  margin-right: 0;
-} */
 
 .works-title {
   margin-bottom: 4px;
