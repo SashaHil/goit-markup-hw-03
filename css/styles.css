@@ -184,14 +184,11 @@ img {
 }
 .benefits-title {
   display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .benefits-title .items {
-  width: calc((100% - 90px) / 4);
-  margin-right: 30px;
-}
-
-.benefits-title .items:nth-child(4n) {
-  margin-right: 0;
+  flex-basis: calc((100% - 90px) / 4);
 }
 
 .benefits-title .title {
@@ -313,7 +310,8 @@ img {
 }
 
 .btn.main {
-  padding: 10px 32px;
+  min-width: 216px;
+  padding: 10px 0;
 }
 
 /* second section for second page */
